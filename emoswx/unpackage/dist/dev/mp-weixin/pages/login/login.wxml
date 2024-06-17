@@ -1,0 +1,1 @@
+<view><image class="logo" src="../../static/logo-1.png" mode="widthFix"></image><button class="login-btn" open-type="getPhoneNumber" data-event-opts="{{[['getphonenumber',[['onGetPhoneNumber',['$event']]]]]}}" bindgetphonenumber="__e">登陆打卡</button></view>

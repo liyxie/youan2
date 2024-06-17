@@ -1,0 +1,1 @@
+<view class="page"><view class="nav-container"><view class="nav-row"><view data-event-opts="{{[['tap',[['toPage',['打卡签到','../checkin_noface/checkin_noface']]]]]}}" class="nav" bindtap="__e"><image class="icon" src="../../static/nav-1.png"></image><text class="name">打卡</text></view></view></view></view>

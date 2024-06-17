@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/my_checkin/my_checkin",
+    "pages/checkin_noface/checkin_noface",
+    "pages/checkin/checkin",
+    "pages/checkin_result/checkin_result",
+    "pages/mine/mine",
+    "pages/face/face"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "emos系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#3474FF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bar-1.png",
+        "selectedIconPath": "static/bar-1-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/bar-5.png",
+        "selectedIconPath": "static/bar-5-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "考勤需要"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

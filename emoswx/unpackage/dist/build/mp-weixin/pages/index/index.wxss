@@ -1,0 +1,1 @@
+.page{display:flex;justify-content:center;align-items:center;height:100vh}.nav-container{display:flex;justify-content:center;align-items:center}.nav-row{display:flex;justify-content:center;align-items:center}.nav{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.icon{width:150px;height:150px;margin-bottom:10px}.name{font-size:36px}

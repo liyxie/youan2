@@ -1,0 +1,35 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* 使页面高度充满视口高度 */
+}
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icon {
+  width: 150px;
+  /* 设置图标宽度 */
+  height: 150px;
+  /* 设置图标高度 */
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 36px;
+}
+

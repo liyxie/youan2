@@ -1,0 +1,1 @@
+<view><view class="calendar-container"><uni-calendar vue-id="614056c0-1" insert="{{true}}" lunar="{{false}}" selected="{{list}}" data-event-opts="{{[['^monthSwitch',[['changeMonth']]],['^confirm',[['changeMonth']]]]}}" bind:monthSwitch="__e" bind:confirm="__e" bind:__l="__l"></uni-calendar></view></view>
